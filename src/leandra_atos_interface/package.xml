@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>leandra_atos_interface</name>
+  <version>0.0.0</version>
+  <description>A ISO22133 conform interface between ATOS ControlCenter and the LeanDRA System by e:fs Techhub</description>
+  <maintainer email="Raphael.Niederauer@efs-techhub.com">Raphael Niederauer</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake_auto</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>nav_msgs</depend>
+  <depend>leandra_dbw_msgs</depend>
+  <depend>tf2</depend>
+  <depend>rclcpp_components</depend>
+  <depend>iso22133</depend>
+  <depend>iso_object</depend>
+  <depend>geographiclib</depend>
+  <depend>localization_utils_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+
+  
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

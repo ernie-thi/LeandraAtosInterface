@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>iso22133</name>
+  <version>0.1.0</version>
+  <description>
+    This package provides a ROS 2 library for ISO22133 functionalities.
+  </description>
+
+  <maintainer email="you@yourdomain.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Für externe Abhängigkeiten -->
+  <!-- <build_depend>boost</build_depend>
+  <exec_depend>boost</exec_depend> -->
+
+  <!-- Wenn ROS 2 Pakete genutzt werden, diese hier angeben -->
+  <!-- Beispiel:
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
